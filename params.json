@@ -1,0 +1,6 @@
+{
+  "name": "Correct Emails on Sandbox Refresh",
+  "tagline": "To correct emails of users after sandbox refresh",
+  "body": "# SandboxRefresh-CorrectEmails\r\nSimple code to correct emails of users after sandbox refresh\r\n\r\n#ABOUT\r\n1) The class SandboxRefresh will correct the email ids of all System Administrators.  \r\n2) Removes '@example.com' from the end of the email, and replaces '=' with '@'  \r\n\r\n#Execution\r\n1) Specify the class name when creating/refreshing a sandbox.  \r\n2) To correct the email after sandbox has been created, invoke the method as shown below:  \r\nSandboxRefresh.correctEmailForProfile(new set<String>{'System Administrator'});  \r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
